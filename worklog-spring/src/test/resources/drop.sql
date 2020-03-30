@@ -1,0 +1,24 @@
+alter table Customer
+    drop constraint FKfok4ytcqy7lovuiilldbebpd9;
+alter table Employee
+    drop constraint FK759vmxo1jn0ql3orqinrieynp;
+alter table Employee
+    drop constraint FK9w3n5bd8mjtisavdle3rolg3p;
+alter table LogbookEntry
+    drop constraint FK375u29uup72hx3b91ff2bbmib;
+alter table LogbookEntry
+    drop constraint FKoj4t3llhfe7pwi9mr1s1lhsnr;
+alter table Project
+    drop constraint FKsbm64qmwf17w5fdaueknmxbji;
+alter table Project_Employee
+    drop constraint FKd53k4mv84jrifvlpk4iccc0xw;
+alter table Project_Employee
+    drop constraint FKb9hoqfgcsa2nmlavaxaeid6hp;
+drop table Address;
+drop table Customer;
+drop table Employee;
+drop table HourlyRate;
+drop table LogbookEntry;
+drop table Project;
+drop table Project_Employee;
+drop sequence hibernate_sequence restrict;
