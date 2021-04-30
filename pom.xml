@@ -22,7 +22,7 @@
         <derby.version>10.15.2.0</derby.version>
         <commons-dbcp2.version>2.7.0</commons-dbcp2.version>
 
-        <spring.version>5.2.3.RELEASE</spring.version>
+        <spring.version>5.3.6</spring.version>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <aspectj.version>1.9.5</aspectj.version>
         <slf4j.version>1.7.30</slf4j.version>
